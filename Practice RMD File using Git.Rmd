@@ -1,0 +1,16 @@
+---
+title: "Practice RMD with Git"
+author: "Jack Fetsch"
+date: "2/4/2020"
+output: html_document
+---
+
+```{r}
+library(gov.1005.data)
+library(tidyverse)
+
+data("congress")
+head(congress)
+glimpse(congress)
+summary(congress)
+```
